@@ -83,3 +83,23 @@ print(f"         Es réplica de: {gioconda_original.Titulo}")
 # ============================================================================
 # EJERCICIO 4: LA GIOCONDA Y SU RÉPLICA
 # ============================================================================
+# main.py: Crea una instancia de Edificio con los datos de la Catedral de Santiago.
+from Ejercicio_4.edificio import Edificio  # Ajusta "paquete" al nombre de tu carpeta.
+
+# Crea la instancia de la Catedral de Santiago.
+catedral_santiago = Edificio(
+    "Catedral de Santiago de Compostela",
+    "Católico",
+    "Santiago de Compostela, Galicia, España",
+    1075,
+    1122,
+    1128,
+    1168,
+    "3 de abril de 1211",
+    1896,
+    "Granito",
+    "Románico, Gótico, Barroco, Plateresco, Neoclásico"
+)
+
+# Imprime para verificar.
+print(catedral_santiago.descripcion())
