@@ -123,3 +123,13 @@ print(circulo.descripcion())
 print(rectangulo.descripcion())
 print(cuadrado.descripcion())
 print(elipse.descripcion())
+
+# ============================================================================
+# EJERCICIO 6: ATRIBUTOS PERSONA 2.0
+# ============================================================================
+print("\n" + "="*70)
+print("EJERCICIO 6: ATRIBUTOS PERSONA 2.0")
+print("="*70)
+from Ejercicio_6.Persona2 import Persona2
+persona1 = Persona2("Juan", "Pérez", 30, "Masculino", "12345678A")
+print(persona1)
