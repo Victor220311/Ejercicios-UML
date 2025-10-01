@@ -81,10 +81,13 @@ print(f"         Ubicación: {prado.descripcion()}")
 print(f"         Es réplica de: {gioconda_original.Titulo}")
 
 # ============================================================================
-# EJERCICIO 4: LA GIOCONDA Y SU RÉPLICA
+# EJERCICIO 4: CATEDRAL DE SANTIAGO DE COMPOSTELA
 # ============================================================================
-
 from Ejercicio_4.edificio import Edificio  
+
+print("\n" + "="*70)
+print("EJERCICIO 4: CATEDRAL DE SANTIAGO DE COMPOSTELA")
+print("="*70)
 
 catedral_santiago = Edificio(
     "Catedral de Santiago de Compostela",
@@ -106,6 +109,10 @@ print(catedral_santiago.descripcion())
 # EJERCICIO 5: FIGURAS GEOMÉTRICAS 2.0
 # ============================================================================
 from Ejercicio_5 import Circulo, Rectangulo, Cuadrado, Elipse  
+
+print("\n" + "="*70)
+print("EJERCICIO 5: FIGURAS GEOMÉTRICAS 2.0")
+print("="*70)
 
 circulo = Circulo("Rojo", 5)
 rectangulo = Rectangulo(4, 2, "Azul")
