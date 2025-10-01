@@ -9,7 +9,7 @@
 
 # main.py: Crea objetos de cada clase y los imprime para verificar.
 # Ejecuta con: python main.py en la terminal de Codespaces.
-from paquete import Circulo, Rectangulo, Cuadrado, Elipse  # Asume que tu carpeta se llama 'paquete'; ajusta si no.
+from Ejercicio_1 import Circulo, Rectangulo, Cuadrado, Elipse  # Asume que tu carpeta se llama 'paquete'; ajusta si no.
 
 # Instancia objetos con valores de la imagen.
 mi_circulo = Circulo()
