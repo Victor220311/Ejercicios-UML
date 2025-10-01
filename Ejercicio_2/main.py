@@ -1,4 +1,4 @@
-from Ejercicio_2 import Persona  # Ajusta "paquete" al nombre de tu carpeta.
+from persona import Persona
 
 # Crea instancias de Persona con los valores del diagrama.
 kate = Persona("Kate", "Middleton", "Mujer")
