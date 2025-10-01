@@ -8,7 +8,6 @@ class Persona:
         self.__padre = None
         self.__madre = None
 
-    # Relaciones Familiares
     def casado_con(self, pareja):
         self.__pareja = pareja
         return f"{self.__nombre} está casado/a con {pareja.__nombre}"

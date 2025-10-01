@@ -7,8 +7,8 @@ class Cuadro:
         self.Soporte = Soporte
         self.Autor = Autor
         self.Estado_Conservacion = Estado_Conservacion
-        self.lugar = None  # Relación con Lugar (dónde se expone)
-        self.es_replica_de = None  # Relación con otro Cuadro (si es réplica)
+        self.lugar = None  
+        self.es_replica_de = None  
 
     def establecer_lugar(self, lugar):
         self.lugar = lugar

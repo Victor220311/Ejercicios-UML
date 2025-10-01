@@ -1,4 +1,3 @@
-# edificio.py: Define la clase Edificio con atributos del diagrama.
 class Edificio:
     def __init__(self, nombre, culto, lugar, fecha_inicio_construccion, fecha_fin_construccion,
                  fecha_primera_consagracion, fecha_inicio_segunda_etapa_construccion,
@@ -16,7 +15,6 @@ class Edificio:
         self.estilo = estilo
 
     def descripcion(self):
-        # Método para mostrar la información del edificio.
         return (f"{self.nombre}\n"
                 f"Culto: {self.culto}\n"
                 f"Ubicación: {self.lugar}\n"

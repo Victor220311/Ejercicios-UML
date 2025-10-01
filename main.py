@@ -103,5 +103,16 @@ catedral_santiago = Edificio(
 print(catedral_santiago.descripcion())
 
 # ============================================================================
-# EJERCICIO 5: LA GIOCONDA Y SU RÉPLICA
+# EJERCICIO 5: FIGURAS GEOMÉTRICAS 2.0
 # ============================================================================
+from Ejercicio_5 import Circulo, Rectangulo, Cuadrado, Elipse  
+
+circulo = Circulo("Rojo", 5)
+rectangulo = Rectangulo(4, 2, "Azul")
+cuadrado = Cuadrado(3, "Verde")
+elipse = Elipse("Amarillo", 6, 3)
+
+print(circulo.descripcion())
+print(rectangulo.descripcion())
+print(cuadrado.descripcion())
+print(elipse.descripcion())
